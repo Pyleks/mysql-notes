@@ -127,4 +127,8 @@ INSERT INTO Album (Title, ArtistId)
 - Enable output of sql commands to file  
 > tee file.txt - Enable  
 > notee - Disable  
-> Show Tables
+> Show Tables  
+> mysql -u Rion - Login  
+> CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';  
+> GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';  
+> FLUSH PRIVILEGES;  
